@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wildebest Cross Adventure | Tanzania</title>
+
+  <!-- Google Fonts -->
+
+
+  <!-- 🔗 LINK TO YOUR CSS FILE -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header>
+    <div class="container nav">
+
+      <a href="#home" class="logo">
+        <!-- 🔴 REPLACE: Your logo image -->
+        <img src="image/logo1.jpeg" alt="WildTrail Safaris Logo">
+        <span>Wildebeest Cross <b> Adventure</b></span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#safaris">SAFARIS</a></li>
+        <li><a href="#destinations">DESTINATION</a></li>
+        <li><a href="#activities">ACTIVITIES & CAMPS</a></li>
+        <li><a href="#about">ABOUT US</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <!--<li><a href="#contact" class="btn btn-primary">Plan Your Trip</a></li>-->
+      </ul>
+
+    </div>
+  </header>
+
+
+  <!-- ================= HOME / HERO ================= -->
+  <!-- 🔴 HERO IMAGE is set in CSS (see style.css → .hero rule) -->
+
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="eyebrow" style="color:#f4ca78;">Authentic Tanzania Experiences</div>
+
+      <h1>Wildebeest Adventure <span>Beyond Ordinary.</span></h1>
+
+      <p>
+        Experience Tanzania in its purest form — from the endless
+        Serengeti plains and spectacular wildlife to majestic
+        mountains, vibrant cultures and coastal escapes.
+      </p>
+
+      <a href="#safaris" class="btn btn-primary">Explore Safaris →</a>
+      <!--<a href="#contact" class="btn btn-outline">Request a Quote</a>-->
+
+      <div class="hero-badges">
+        <span class="badge">✓ Local safari specialists</span>
+        <span class="badge">✓ Tailor-made journeys</span>
+        <span class="badge">✓ Responsible travel</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= STATS ================= -->
+
+  <!--<section class="stats">
+    <div class="container stats-grid">
+      <div class="stat"><strong>10+</strong><span>Years of experience</span></div>
+      <div class="stat"><strong>25+</strong><span>Safari routes</span></div>
+      <div class="stat"><strong>4.9/5</strong><span>Guest satisfaction</span></div>
+      <div class="stat"><strong>24/7</strong><span>Travel support</span></div>
+    </div>
+  </section>-->
+
+
+  <!-- ================= SAFARIS ================= -->
+
+  <section class="section" id="safaris">
+
+    <div class="container">
+
+      <div class="section-heading">
+        <div class="eyebrow">Our Safari Experiences</div>
+
+        <h2>Designed for Your Dream Safari.</h2>
+
+        <p>
+          Choose a safari style and let our team help you create
+          a journey that fits your time, interests, and budget.
+        </p>
+      </div>
+
+
+      <!-- =========================
+         SAFARI CAROUSEL
+    ========================== -->
+
+      <div class="safari-carousel">
+
+        <!-- Previous Button -->
+        <button class="slider-btn prev-btn" id="prevBtn">
+          &#10094;
+        </button>
+
+
+        <!-- Cards Container -->
+        <div class="slider-window">
+
+          <div class="grid" id="safariSlider">
+
+
+            <!-- Safari Card 1 -->
+            <article class="card">
+
+              <img src="image/Zebra.webp" alt="Serengeti National Park">
+
+              <div class="card-body">
+
+                <div class="card-meta">
+                  <span>Serengeti National Park</span>
+                  <span>Wildebeest</span>
+                </div>
+
+                <h3>Wildebeest Cross Adventure</h3>
+
+                <p>
+                  Discover one of Africa's most famous wildlife
+                  destinations, where vast golden plains are home to
+                  lions, elephants, cheetahs, zebras and other species.
+                  Experience the wild heart of Tanzania.
+                </p>
+
+                <a href="#contact" class="link">
+                  Plan this safari →
+                </a>
+
+              </div>
+            </article>
+
+
+            <!-- Safari Card 2 -->
+            <article class="card">
+
+              <img src="image/crater.jpg" alt="Ngorongoro Crater">
+
+              <div class="card-body">
+
+                <div class="card-meta">
+                  <span>Ngorongoro Crater</span>
+                  <span>Adventure</span>
+                </div>
+
+                <h3>Ngorongoro Conservation Area</h3>
+
+                <p>
+                  Descend into the spectacular Ngorongoro Crater
+                  and discover an extraordinary concentration of
+                  wildlife surrounded by breathtaking scenery.
+                </p>
+
+                <a href="#contact" class="link">
+                  Plan this safari →
+                </a>
+
+              </div>
+            </article>
+
+
+            <!-- Safari Card 3 -->
+            <article class="card">
+
+              <img src="image/migrant.webp" alt="Great Wildebeest Migration">
+
+              <div class="card-body">
+
+                <div class="card-meta">
+                  <span>Serengeti National Park</span>
+                  <span>Migration</span>
+                </div>
+
+                <h3>The Great Wildebeest Migration</h3>
+
+                <p>
+                  Witness one of nature's greatest spectacles as
+                  millions of wildebeest and other animals move across
+                  the Serengeti ecosystem.
+                </p>
+
+                <a href="#contact" class="link">
+                  Plan this safari →
+                </a>
+
+              </div>
+            </article>
+
+
+            <!-- Safari Card 4 -->
+            <article class="card">
+
+              <img src="image/elephant.jpg" alt="Elephants in Tanzania">
+
+              <div class="card-body">
+
+                <div class="card-meta">
+                  <span>Tarangire National Park</span>
+                  <span>Wildlife</span>
+                </div>
+
+                <h3>Tarangire Elephant Adventure</h3>
+
+                <p>
+                  Explore the beautiful landscapes of Tarangire,
+                  famous for its large elephant herds, ancient
+                  baobab trees and incredible wildlife.
+                </p>
+
+                <a href="#contact" class="link">
+                  Plan this safari →
+                </a>
+
+              </div>
+            </article>
+
+
+            <!-- Safari Card 5 -->
+            <article class="card">
+
+              <img src="image/big5.jpg" alt="Lion Safari Tanzania">
+
+              <div class="card-body">
+
+                <div class="card-meta">
+                  <span>Serengeti National Park</span>
+                  <span>Big Five</span>
+                </div>
+
+                <h3>Big Five Safari</h3>
+
+                <p>
+                  Experience Tanzania's incredible wildlife while
+                  searching for lions, elephants, leopards, buffalo
+                  and rhinos across spectacular natural landscapes.
+                </p>
+
+                <a href="#contact" class="link">
+                  Plan this safari →
+                </a>
+
+              </div>
+            </article>
+
+
+          </div>
+        </div>
+
+
+        <!-- Next Button -->
+        <button class="slider-btn next-btn" id="nextBtn">
+          &#10095;
+        </button>
+
+      </div>
+
+
+      <!-- Slider Indicators -->
+      <div class="slider-dots" id="sliderDots"></div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= DESTINATIONS ================= -->
+  <section class="section destinations" id="destinations">
+    <div class="container">
+
+      <div class="section-heading">
+        <div class="eyebrow">Where We Go</div>
+        <h2>Discover Tanzania's iconic destinations.</h2>
+        <p>
+          From endless savannahs to ancient craters and tropical islands,
+          every destination tells a different story.
+        </p>
+      </div>
+
+      <!-- Slider wrapper -->
+      <div class="destination-slider">
+
+        <!-- Left button -->
+        <button class="slider-btn slider-left" id="scrollLeft" aria-label="Scroll left">
+          &#10094;
+        </button>
+
+        <!-- Cards -->
+        <div class="destination-grid" id="destinationGrid">
+
+          <!-- Destination 1 -->
+          <article class="destination-card">
+            <img src="image/seerengeti national.avif" alt="Serengeti National Park">
+            <div class="destination-overlay">
+              <h3>Serengeti National Park</h3>
+              <p>Wildlife, open plains, and unforgettable safari moments.</p>
+            </div>
+          </article>
+
+          <!-- Destination 2 -->
+          <article class="destination-card">
+            <img src="image/kilimanjaro.webp" alt="Mount Kilimanjaro">
+            <div class="destination-overlay">
+              <h3>Mount Kilimanjaro</h3>
+              <p>Mountain adventures and extraordinary views.</p>
+            </div>
+          </article>
+
+          <!-- Destination 3 -->
+          <article class="destination-card">
+            <img src="image/Ngorongoro crater.jpg" alt="Ngorongoro Crater">
+            <div class="destination-overlay">
+              <h3>Ngorongoro Crater</h3>
+              <p>A spectacular natural setting rich in wildlife.</p>
+            </div>
+          </article>
+
+          <!-- Destination 5 -->
+          <article class="destination-card">
+            <img src="image/Tarangire.jpg" alt="Tarangire National Park">
+            <div class="destination-overlay">
+              <h3>Tarangire</h3>
+              <p>Famous for its giant baobab trees and incredible wildlife.</p>
+            </div>
+          </article>
+
+          <!-- Destination 6 -->
+          <article class="destination-card">
+            <img src="image/manyara.jpg" alt="Lake Manyara National Park">
+            <div class="destination-overlay">
+              <h3>Lake Manyara National Park</h3>
+              <p>Beautiful landscapes, diverse birdlife, and a unique ecosystem.</p>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Right button -->
+        <button class="slider-btn slider-right" id="scrollRight" aria-label="Scroll right">
+          &#10095;
+        </button>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= ABOUT US ================= -->
+
+  <section class="section about" id="about">
+    <div class="container about-grid">
+
+      <div class="about-image">
+        <!-- 🔴 REPLACE: images/about.jpg -->
+        <img src="image/about.jpeg" alt="Tanzania safari landscape">
+      </div>
+
+      <div class="about-text">
+        <div class="eyebrow">About Wildebeest Cross Adventure</div>
+
+        <h2>More Than Safari - It's a Memory.</h2>
+        <p>Welcome to Wildebeest Cross Adventure, Your Geteway to unforgettable Safari experience in Tanzania</p>
+        <p>We create experience you'll remeber for a lifetime,
+          Wake up to the sound of Africa. Watch the sunrese over the Savannah.</p>
+        <p>Your Adventure is important tour from the moments you contact us untill the moments You say goodbye to
+          Tanzania.</p>
+
+        <ul class="check-list">
+          <li>Authentic Safari Experience</li>
+          <li>Comfortable 4x4 Safari vehicles</li>
+          <li>LOcal Knowledge</li>
+          <li>Personalized Safari</li>
+          <li>Responsible Travel</li>
+        </ul>
+
+        <!--- <a href="#contact" class="btn btn-primary">Talk to Our Team</a>-->
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= CONTACT ================= -->
+
+  <!-- ================= CONTACT SECTION ================= -->
+  <section class="contact-section" id="contact">
+
+    <div class="contact-container">
+
+      <!-- Section Header -->
+      <div class="contact-header">
+        <span class="contact-eyebrow">START PLANNING</span>
+
+        <h2>Let's Create Your Safari Story</h2>
+
+        <p>
+          Tell us what you have in mind and our safari specialists
+          will help you plan an unforgettable Tanzania adventure.
+        </p>
+      </div>
+
+
+      <!-- Contact Content -->
+      <div class="contact-wrapper">
+
+        <!-- LEFT: Contact Information -->
+        <div class="contact-details">
+
+          <div class="contact-intro">
+            <span class="contact-icon">🌍</span>
+
+            <div>
+              <h3>Talk to Our Safari Team</h3>
+              <p>
+                Whether you're dreaming of the Serengeti, climbing
+                Kilimanjaro, or relaxing in Arusha Hotels, we're here to help.
+              </p>
+            </div>
+          </div>
+
+
+          <!-- Office -->
+          <div class="contact-detail">
+
+            <div class="detail-icon">
+              📍
+            </div>
+
+            <div>
+              <small>OUR OFFICE</small>
+              <strong>Arusha, Tanzania</strong>
+            </div>
+
+          </div>
+
+
+          <!-- Phone -->
+          <div class="contact-detail">
+
+            <div class="detail-icon">
+              📞
+            </div>
+
+            <div>
+              <small>CALL US</small>
+              <a href="tel:+255664567666">
+                +255 664 567 666
+              </a>
+            </div>
+
+          </div>
+
+
+          <!-- Email -->
+          <div class="contact-detail">
+
+            <div class="detail-icon">
+              ✉️
+            </div>
+
+            <div>
+              <small>EMAIL US</small>
+              <a href="mailto:wildebestcrossadventure@gmail.com">
+                wildebestcrossadventure@gmail.com
+              </a>
+            </div>
+
+          </div>
+
+
+          <!-- Working Hours -->
+          <div class="contact-detail">
+
+            <div class="detail-icon">
+              🕘
+            </div>
+
+            <div>
+              <small>WORKING HOURS</small>
+              <strong>
+                Monday – Saturday
+              </strong>
+
+              <span>
+                8:00 AM – 6:00 PM
+              </span>
+            </div>
+
+          </div>
+
+
+          <!-- Small CTA -->
+          <div class="contact-note">
+            <span>✦</span>
+
+            <p>
+              Your adventure starts with a conversation.
+              We're happy to answer your questions.
+            </p>
+          </div>
+
+        </div>
+
+
+        <!-- RIGHT: Contact Form -->
+        <div class="contact-form-box">
+
+          <div class="form-heading">
+            <span>ENQUIRE NOW</span>
+
+            <h3>Plan Your Adventure</h3>
+
+            <p>
+              Send us your travel details and we'll get back to you.
+            </p>
+          </div>
+
+
+          <div class="contact-image">
+            <img src="image/safari T.jpg" alt="Plan Your Adventure">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!--<form class="contact-form" id="contactForm">
+          <div class="form-grid">
+
+            <div class="field">
+              <label for="name">Full Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required>
+            </div>
+
+            <div class="field">
+              <label for="email">Email Address</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="field">
+              <label for="travelDate">Travel Date</label>
+              <input id="travelDate" name="travelDate" type="date">
+            </div>
+
+            <div class="field">
+              <label for="travelers">Travelers</label>
+              <select id="travelers" name="travelers">
+                <option>1–2 travelers</option>
+                <option>3–5 travelers</option>
+                <option>6–10 travelers</option>
+                <option>11+ travelers</option>
+              </select>
+            </div>
+
+            <div class="field full">
+              <label for="message">Tell Us About Your Trip</label>
+              <textarea id="message" name="message"
+                placeholder="Which destinations or activities interest you?"></textarea>
+            </div>
+
+          </div>
+
+          <button class="btn btn-primary" type="submit">Send Enquiry →</button>
+          <div class="notice" id="formNotice"></div>
+        </form>-->
+
+  </div>
+  </div>
+  </section>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <div>
+          <a href="#home" class="logo">
+            <!-- 🔴 REPLACE: same logo as header -->
+            <img src="image/logo1.jpeg" alt="WildTrail Safaris Logo">
+            <span>Wildebest Cross <b>Adventure</b></span>
+          </a>
+          <p style="margin-top:18px;">Authentic journeys through the heart of Tanzania.</p>
+        </div>
+
+        <div>
+          <h3>Explore</h3>
+          <a href="#safaris">Safaris</a>
+          <a href="#destinations">Destinations</a>
+          <a href="#activities">Activities & Camps</a>
+        </div>
+
+        <div>
+          <h3>Company</h3>
+          <a href="#about">About Us</a>
+          <a href="#contact">Contact</a>
+          <a href="#contact">Request a Quote</a>
+        </div>
+
+        <div>
+          <h3>Follow Us</h3>
+          <a href="#contact">Instagram</a>
+          <a href="#contact">Facebook</a>
+          <a href="#contact">WhatsApp</a>
+          <a href="#contact">TikTok</a>
+        </div>
+
+      </div>
+
+      <div class="copyright">
+        <span>© <span id="year"></span> Wildebest Cross Adventure. All rights reserved.</span>
+        <span>Designed by Mangale.</span>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- 🔗 LINK TO YOUR JAVASCRIPT FILE -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
